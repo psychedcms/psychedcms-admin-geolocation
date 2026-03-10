@@ -4,12 +4,6 @@
   "projectType": "library",
   "sourceRoot": "packages/psychedcms-admin-geolocation/src",
   "targets": {
-    "typecheck": {
-      "command": "npx tsc --noEmit -p tsconfig.json",
-      "options": {
-        "cwd": "packages/psychedcms-admin-geolocation"
-      }
-    },
     "lint": {
       "command": "npx eslint src/",
       "options": {
