@@ -1,0 +1,17 @@
+{
+  "name": "@psychedcms/admin-geolocation",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "peerDependencies": {
+    "@psychedcms/admin-core": ">=0.1.0",
+    "react": "^19.0.0",
+    "react-admin": "^5.0.0",
+    "react-dom": "^19.0.0",
+    "@mui/material": ">=6.0.0"
+  },
+  "dependencies": {
+    "@vis.gl/react-google-maps": "^1.0.0"
+  }
+}
